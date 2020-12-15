@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body">
+    <div class="main_div">
+      <h3>image editor</h3>
+      <div class="form_control">
+        <form action="" id="forms">
+          <input type="text" id="title_url" placeholder="enter your image path" />
+          <button type="submit">click</button>
+        </form>
+      </div>
+      <img src="images/setup.jpg" alt="setup" id="img_room" />
+      <div class="editing_tools">
+         <form action="" id="slider_reset">
+          <div class="box">
+            <div class="input_control">
+              <label for="blur">blur</label>
+              <input type="range" id="blur" class="slider_controler" value="0" />
+            </div>
+            <div class="input_control">
+              <label for="hue">hue-rotate</label>
+              <input type="range" id="hue" class="slider_controler" value="0" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="input_control">
+              <label for="invert">invert</label>
+              <input type="range" id="invert" class="slider_controler" value="0" />
+            </div>
+            <div class="input_control">
+              <label for="sepia">sepia</label>
+              <input type="range" id="sepia" class="slider_controler" value="0" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="input_control">
+              <label for="opacity">opacity</label>
+              <input type="range" id="opacity" class="slider_controler" value="100" />
+            </div>
+            <div class="input_control">
+              <label for="grayscale">grayscale</label>
+              <input type="range" id="grayscale" class="slider_controler" value="0" />
+            </div>
+          </div>
+          <input type="reset" class="rese" value="r">
+         </form>
+      </div>
+    </div>
+   <script src="script.js"></script>
+  </body>
+</html>
